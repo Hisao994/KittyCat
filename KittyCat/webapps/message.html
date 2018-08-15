@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>留言反馈</title>
+<style>
+	*{
+		margin:0px auto;
+		padding:0px;
+	}
+	body{
+		background:#2c383e url(images/bgindex.jpg) repeat-x;
+	}
+	#top{
+		width:867px;
+		height:323px;		
+	}
+	#top embed{
+		width:100%;
+		height:100%;
+	}
+	#menu{
+		height:51px;
+		width:867px;
+		background-image:url(images/linkbg.jpg);
+	}
+	#menu a{
+		text-decoration:none;
+		color:black	;
+	}
+	#menu a:hover{
+		text-decoration:underline;
+		color:#CC3;
+		font-size:18px;
+		font-weight:bold;
+	}
+	#menu li{
+		list-style:none;
+		float:left;
+		width:124px;
+		height:51px;
+		text-align:center;
+		line-height:51px;
+	}
+	#lastli{
+		width:123px !important;
+	}
+	#center{
+		width:867px;
+		height:700px;
+		background-color:white;
+	}
+	#left{
+		height:100%;
+		width:250px;
+		float:left;
+		background:url(images/weline.gif) repeat-y right;
+	}
+	#right{
+		width:616px;
+		height:100%;
+		float:left;
+	}
+	#about{
+		width:100%;
+		height:100%;
+		float:left;
+	}
+	#about a{
+		float:left;
+		width:65px;
+		height:11px;
+		margin-left:20px;
+		margin-top:10px;
+	}
+	
+	.submit{
+		background: #fff none repeat scroll 0 0;
+   		border: 1px solid #ccc;
+    	color: #666;
+    	cursor: pointer;
+    	height: 25px;
+    	width: 70px;
+	}
+	.text {
+   	 	height: 18px;
+   		width: 152px;
+		margin:10px;
+	}
+	.ta {
+    	height: 102px;
+    	position: relative;
+    	width: 212px;
+	}
+	#submit{
+		margin-right:200px;
+	}
+	#footer{
+		width:867px;
+		height:110px;
+		background:url(images/footer1.gif);
+	}
+</style>
+</head>
+
+<body>
+	<div id="top">
+		<embed src="images/banner.swf"></embed>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="about.html">关于我们</a></li>
+			<li><a href="news.html">新闻动态</a></li>
+			<li><a href="loupan.html">楼盘展示</a></li>
+			<li><a href="recruit.html">人才招聘</a></li>
+			<li><a href="link.html">联系我们</a></li>
+			<li id="lastli"><a href="message.html">留言反馈</a></li>
+		</ul>
+	</div>
+	<div id="center">
+		<div id="left">
+			<embed  style="margin-top:20px;" src="images/about.swf"></embed>
+		</div>
+		<div id="right">
+			<div id="about">
+				<img style="margin:20px 0px 0px 16px;" src="images/Message.gif" />
+				<form>
+					<span>您的姓名：</span><input class="text" type="text-box"/><br/>
+					<span>电子邮箱：</span><input class="text" value="@" type="email"><br/>
+					<textarea class="ta"></textarea>
+					<p id="submit">
+						<input class="submit" value="发送邮件" type="submit">
+					</p>
+				</form>
+				
+				<a></a>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<img src="images/footer2.gif" style="padding-top:10px;"/>
+		<p style="color:white; text-align:rigth; font-size:13px;">COPYRIGHT ©WZGS.NET,2006ALL RIGHT
+	</div>
+</body>
+</html>
